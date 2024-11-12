@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuario</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+            background-image: url('C:/Users/mechv/OneDrive/Escritorio/img/ifn.jpg'); /* Cambia esta ruta */
+            background-size: cover; /* La imagen cubrirá toda la pantalla */
+            background-position: center; /* Centra la imagen de fondo */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+        }
+
+        /* Estilos del menú */
+        .menu {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+
+        .menu-item {
+            position: relative;
+            list-style: none;
+        }
+
+        .menu > .menu-item > a {
+            display: block;
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .menu > .menu-item > a:hover {
+            background-color: #444;
+        }
+
+        /* Estilos para submenús */
+        .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .submenu a {
+            display: block;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .submenu a:hover {
+            background-color: #444;
+        }
+
+        /* Mostrar submenú al pasar el mouse */
+        .menu-item:hover .submenu {
+            display: block;
+        }
+
+        /* Estilos de bienvenida y presentación */
+        .inicio {
+            text-align: center;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semitransparente */
+            border-radius: 10px;
+        }
+
+        .inicio h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .inicio p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Presentación de Bienvenida -->
+<div class="inicio">
+    <h1>Bienvenidos al Anuario del 11°D tecnología</h1>
+</div>
+
+<!-- Menú Horizontal -->
+<ul class="menu">
+    <li class="menu-item">
+        <a href="Inicio.html">Inicio</a>
+    </li>
+    <li class="menu-item">
+        <a href="Los que se la pasan jugando.html">Los que se la pasan jugando</a>
+        <ul class="submenu">
+            <li><a href="file:///C:/Users/mechv/OneDrive/Documentos/bogdanov.html">Bogdanov,Daniel</a></li>
+            <li><a href="file:///C:/Users/mechv/OneDrive/Documentos/img/nu%C3%B1ez.html">Nuñez,Irving</a></li>
+            <li><a href="file:///C:/Users/mechv/OneDrive/Documentos/cortez.html">Cortez,Anyelo</a></li>
+            <li><a href="file:///C:/Users/mechv/OneDrive/Documentos/martinez.html">Martinez,Daniel</a></li>
+        </ul>
+    </li>
+    <li class="menu-item">
+        <a href="Los que no tienen celular.html">Los que no tienen celular</a>
+        <ul class="submenu">
+            <li><a href="file:///C:/Users/mechv/OneDrive/Escritorio/img/gomez.html">Gomez,Andres</a></li>
+            <li><a href="file:///C:/Users/mechv/OneDrive/Documentos/alveo.html">Alveo,Samuel</a></li>
+            <li><a href="file:///C:/Users/mechv/OneDrive/Documentos/gonzalez.html">González,Bryan</a></li>
+        </ul>
+    </li>
+    <li class="menu-item">
+        <a href="Los mas unidos.html">Los mas unidos</a>
+        <ul class="submenu">
+            <li><a href="file:///C:/Users/mechv/OneDrive/Escritorio/img/Sotelo.html">Sotelo,Valentina</a></li>
+            <li><a href="file:///C:/Users/mechv/OneDrive/Documentos/mendieta.html">Mendieta,José</a></li>
+            <li><a href="file:///C:/Users/mechv/OneDrive/Documentos/vargas.html">Vargas,Ana</a></li>
+            <li><a href="file:///C:/Users/mechv/OneDrive/Documentos/vergara.html">Vergara,Raul</a></li>
+        </ul>
+    </li>
+    <li class="menu-item">
+        <a href="los que estudian y salen mal.html">Los que estudian y salen mal</a>
+        <ul class="submenu">
+            <li><a href="file:///C:/Users/mechv/OneDrive/Documentos/chaverra.html">Chaverra,Michell</a></li>
+            <li><a href="file:///C:/Users/mechv/OneDrive/Documentos/pineda.html">Pineda,Débora</a></li>
+            <li><a href="file:///C:/Users/mechv/OneDrive/Escritorio/img/blackman.html">Blackman,Manuel</a></li>
+            <li><a href="file:///C:/Users/mechv/OneDrive/Documentos/evila.html">Evila,Mahilena</a></li>
+            <li><a href="file:///C:/Users/mechv/OneDrive/Escritorio/img/butrago.html">Buitrago,Kathleen</a></li>
+        </ul>
+    </li>
+</ul>
+
+<!-- Presentación del Anuario -->
+<div class="inicio">
+    <p>Historia</p>
+<p>El Instituto Fermin Naudeau fue fundado en 1993 con el objetivo de ofrecer una educación integral y de calidad. A lo largo de los años, ha crecido y se ha adaptado a las necesidades de la comunidad, enfocándose en la formación de ciudadanos responsables y comprometidos.</p>
+
+<p>Misión</p>
+<p>La misión del instituto es proporcionar una educación integral que fomente el desarrollo académico, social y emocional de los estudiantes, cultivando valores como el respeto y la solidaridad, y formando individuos críticos y creativos que contribuyan a su comunidad.</p>
+<p>Logros</p>
+<p>El Instituto Fermín Naudeau ha destacado en diversos ámbitos educativos y comunitarios a lo largo de su historia. Algunos de sus logros más notables incluyen:
+
+<p>Premio en Olimpiada Latinoamericana de Ciencias Espaciales: En 2019, Stephanie Bósquez, estudiante de 12.º grado, obtuvo la medalla de bronce y fue reconocida como la Mejor Prueba Teórica Grupal Multinacional. Enfrentó a equipos de Brasil, Colombia, Nicaragua y Paraguay en esta competencia internacional.</p> 
+
+<p>Celebración de Aniversario: El 7 de julio de 2006, el instituto celebró su 48.º aniversario de fundación. En ese momento, se destacó su creación mediante el Decreto Ley Nº 7 de 29 de abril de 1958, siendo Ministro de Educación el Ingeniero Víctor Nelson Juliao. </p>
+
+<p>Mejoras en Infraestructura: En julio de 2023, la comunidad educativa del Instituto Fermín Naudeau, junto con autoridades del Ministerio de Educación, llevó a cabo tareas de mejoramiento en las estructuras del centro escolar, demostrando un compromiso continuo con la calidad educativa. </p>
+<p>Anuario Hecho por Michell Chaverra</p>
+</div>
+
+</body>
+</html>
+
+
+
